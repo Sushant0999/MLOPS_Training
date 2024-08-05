@@ -1,0 +1,7 @@
+name : Loan_prediction
+
+conda_env = conda.yml
+
+entry_point:
+  main:
+     command: "python basic_ml.py"

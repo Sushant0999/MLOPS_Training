@@ -7,6 +7,7 @@ import mlflow
 
 def main(inp1, inp2):
     mlflow.set_experiment("Demo Experiment")
+    # with mlflow.start_run(run_name='Example_Demo'):
     with mlflow.start_run():
       mlflow.log_param("param1", inp1)
       mlflow.log_param("param2", inp2)
